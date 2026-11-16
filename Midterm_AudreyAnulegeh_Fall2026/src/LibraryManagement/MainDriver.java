@@ -18,7 +18,7 @@ public class MainDriver {
             Member.registerMember(6, "Invalid Member", "555-0106", 1006, 15);
             System.out.println("Registration successful.");
         } catch (IllegalArgumentException e) {
-            System.out.println("\nRegistration failed: " + e.getMessage());
+            System.out.println("\nRegistration failed: " + e.getMessage());//call cors and stack trace
         }
 
         Librarian librarian = new Librarian(3, "David Smith", "555-0103", 201, "Circulation", 4000, 50, 200);

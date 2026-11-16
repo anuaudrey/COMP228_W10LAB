@@ -23,7 +23,7 @@ public class SeniorLibrarian extends Librarian {
     private final String specialization;
 
     // Stores the additional monthly allowance for seniority.
-    private final double seniorityAllowance;
+
 
     // Constructor initializes inherited librarian details and senior-specific information.
     public SeniorLibrarian(int personId, String name, String phoneNumber, int staffId, String department, double monthlySalary, int dailyIssueLimit, int booksProcessed, String specialization, double seniorityAllowance) {
